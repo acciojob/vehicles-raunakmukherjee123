@@ -1,9 +1,10 @@
-import com.driver.WaterVehicle;
+package com.driver;
 
 public class Boat implements WaterVehicle
 {
-  String name;
-  int capacity;
+    String name;
+    int capacity;
+
     @Override
     public String getVehicleName() {
         return name;
